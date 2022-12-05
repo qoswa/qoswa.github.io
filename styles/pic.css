@@ -1,11 +1,8 @@
 .blue-bird {
-    margin: 30px;
     width: 200px;
     height: 200px;
-    background-color: red;
     position: relative;
 }
-
 
 .bird-hair-left, .bird-hair-center, .bird-hair-right {
  position: absolute;
@@ -23,17 +20,17 @@
 width: 20px;
 height: 40px;
 position: absolute;
-left: 35%;
-top: 75%;
-transform: rotate(15deg);
+left: 38%;
+top: 77%;
+transform: rotate(13deg);
 background:transparent;
 }
 
 .bird-leg-right {
-left: 50%;
-height: 33px;
-top: 79%;
-transform:rotate(10deg);
+left: 52%;
+height: 39px;
+top: 78%;
+transform:rotate(0deg);
 }
 
 .bird-leg-one {
@@ -82,8 +79,6 @@ top: 15%;
     left: 65%;
     transform: rotate(-30deg);
 }
-
-
 
 .bird-hair-center {
   left: 43%;
