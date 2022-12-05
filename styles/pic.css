@@ -1,0 +1,145 @@
+.blue-bird {
+    margin: 30px;
+    width: 200px;
+    height: 200px;
+    background-color: red;
+    position: relative;
+}
+
+
+.bird-hair-left, .bird-hair-center, .bird-hair-right {
+ position: absolute;
+  bottom: 80%;
+  left: 39%;
+  width: 0;
+  height: 0;
+  border-top: 20px solid transparent;
+  border-left: 10px solid transparent;
+  border-right: 10px solid #13699d;
+  border-bottom: 10px solid #13699d;
+}
+
+.bird-leg-left, .bird-leg-right {
+width: 20px;
+height: 40px;
+position: absolute;
+left: 35%;
+top: 75%;
+transform: rotate(15deg);
+background:transparent;
+}
+
+.bird-leg-right {
+left: 50%;
+height: 33px;
+top: 79%;
+transform:rotate(10deg);
+}
+
+.bird-leg-one {
+   position: absolute;
+ width: 20%;
+ height: 80%;
+ background: #13699d;
+left: 40%;
+top: 15%;
+}
+
+.bird-leg-two, .bird-leg-three {
+    position: absolute;
+    width: 3px;
+    height: 17px;
+    background: #13699d;
+}
+
+.bird-leg-two {
+    left: 0%;
+    top: 60%;
+    transform: rotate(45deg);
+}
+
+.bird-leg-three {
+    left: 75%;
+    top: 60%;
+    transform: rotate(-50deg);
+}
+
+.bird-wing-left, .bird-wing-right {
+ border-style: solid;
+ border-width: 2px;
+ border-color: #13699D;
+ background: radial-gradient(circle at 55% 70%, white 5%, #59c6d8 50%);
+ width: 15%;
+ height: 40%;
+ border-radius: 100% 100% 100% 100%;
+ top: 30%;
+ left: 20%;
+ position: absolute;
+ transform: rotate(30deg);
+}
+
+.bird-wing-right {
+    left: 65%;
+    transform: rotate(-30deg);
+}
+
+
+
+.bird-hair-center {
+  left: 43%;
+  border-top: 25px solid transparent;
+}
+.bird-hair-right {
+ left: 47%;
+}
+
+.bird-nose {
+  position: relative;
+  width: 0;
+  height: 0;
+  border-top: 20px solid #13699d;
+  border-left: 10px solid transparent;
+  border-right: 10px solid transparent;
+  top: 20%;
+  left: 37%;
+}
+
+.bird-body {
+ border-style: solid;
+ border-width: 3px;
+ border-color: #13699D;
+ background: radial-gradient(circle at 55% 70%, white 5%, #59c6d8 50%);
+ width: 40%;
+ height: 70%;
+ border-radius: 100% 100% 100% 100%;
+ top: 10%;
+ left: 30%;
+ position: relative;
+}
+
+.bird-eye-left, .bird-eye-right {
+   height: 20px;
+   width: 10px;
+   position: relative;
+   display: inline-block;
+   border-radius: 100% 100% 100% 100%;
+   background-color: white;
+    border-style: solid;
+    border-width: 3px;
+    border-color: #13699D;
+    top: 20%;
+    left: 20%;
+}
+
+.bird-eye-right {
+    left: 35%;
+}
+
+.pupil {
+	background: #0369a6;
+	width: 60%;
+	height: 100%;
+	position: relative;
+	left: 0%;
+	border-radius: 50% 100% 100% 50%;
+}
