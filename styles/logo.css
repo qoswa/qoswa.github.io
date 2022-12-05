@@ -6,27 +6,29 @@
 }
 
 .mouth {
-  position: absolute;
+  position: relative;
+  display: inline-block;
   background-color: black;
   width: 50px;
   height: 25px;
   border-radius: 25px 25px 25px 25px;
-  top: 60px;
-  left: 20px;
+  top: 65px;
+  left: -20px;
 }
 
 .left-eye, .right-eye {
   background-color: black;
+  display: inline-block;
   border-radius: 50%;
   width: 18px;
   height: 18px;
-  position: absolute;
-  left: 22px;
+  position: relative;
+  left: 25px;
   top: 28px;
 }
 
 .right-eye {
-  left: 60px;
+  left: 45px;
 }
 
 .left-eye::before, .right-eye::before {
