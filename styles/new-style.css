@@ -1,0 +1,85 @@
+#vertical-flex-container {
+ display:flex;
+ align-items:center;
+ justify-content: start;
+ flex-direction: column;
+}
+
+#horizontal-flex-container {
+ display:flex;
+ align-items:bottom;
+ flex-direction: row;
+}
+
+.rotate-animation {
+  animation-name: slideOutWithRotation;
+  animation-duration: 3s;
+}
+
+.shake-animation {
+ animation-name: flexShake;
+ animation-duration: 2s;
+}
+
+@keyframes flexShake {
+  0% {
+    transform: translate(0%);
+  }
+  25% {
+    transform: translate(-10%) ;
+  }
+  50% {
+    transform: translate(10%) ;
+  }
+  75% {
+    transform: translate(-10%) ;
+  }
+   100% {
+     transform: translate(0%) ;
+   }
+}
+
+@keyframes slideOutWithRotation {
+  0% {
+    transform: translate(0%) rotate(0deg);
+  }
+  25% {
+    transform: translate(-100%) rotate(360deg);
+  }
+  100% {
+    transform: translate(500%) rotate(1080deg);
+  }
+}
+
+.fade-in {
+  animation: fadeIn ease 2s;
+  -webkit-animation: fadeIn ease 2s;
+  -moz-animation: fadeIn ease 2s;
+  -o-animation: fadeIn ease 2s;
+  -ms-animation: fadeIn ease 2s;
+}
+
+@keyframes fadeIn {
+  0% {opacity:0;}
+  100% {opacity:1;}
+}
+
+@-moz-keyframes fadeIn {
+  0% {opacity:0;}
+  100% {opacity:1;}
+}
+
+@-webkit-keyframes fadeIn {
+  0% {opacity:0;}
+  100% {opacity:1;}
+}
+
+@-o-keyframes fadeIn {
+  0% {opacity:0;}
+  100% {opacity:1;}
+}
+
+@-ms-keyframes fadeIn {
+  0% {opacity:0;}
+  100% {opacity:1;}
+}
