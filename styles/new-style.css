@@ -7,8 +7,8 @@
 
 #horizontal-flex-container {
  display:flex;
- align-items:bottom;
  flex-direction: row;
+ justify-content: center;
 }
 
 .rotate-animation {
