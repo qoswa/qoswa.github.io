@@ -1,0 +1,55 @@
+#roof {
+    position: absolute;
+    background-color: red;
+    height: 70pt;
+    width: 190pt;
+    clip-path: polygon(50% 0, 0 100%, 100% 100%);
+    border: crimson solid 5pt;
+}
+
+#wall {
+    position: absolute;
+    background-color: saddlebrown;
+    border: 5pt solid rgb(84, 36, 2);
+    height: 120pt;
+    width: 150pt;
+}
+
+#window {
+    position: absolute;
+    height: 50pt;
+    width: 70pt;
+    background-color: lightblue;
+    border: 3pt groove rgba(0, 94, 255, 0.467);
+}
+
+#grass {
+    position: absolute;
+    height: 20pt;
+    width: 200pt;
+    background-color: rgb(138, 210, 30);
+    border-top: green 4pt dotted;
+}
+
+.shake-animation {
+  animation-name: houseShake;
+  animation-duration: 2s;
+}
+
+@keyframes houseShake {
+  0% {
+    transform: translate(0%);
+  }
+  25% {
+    transform: translate(-10%);
+  }
+  50% {
+    transform: translate(10%);
+  }
+  75% {
+    transform: translate(-10%);
+  }
+  100% {
+    transform: translate(0%);
+  }
+}

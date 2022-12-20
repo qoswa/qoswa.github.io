@@ -1,5 +1,6 @@
 .container {
     text-align: center;
+    background-color: #ffb8bf;
 }
 .container ul {
     display: inline-block;
