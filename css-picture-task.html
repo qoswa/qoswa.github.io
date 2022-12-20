@@ -5,8 +5,8 @@
     <meta name="viewport" content="width=device-width" />
     <title>My test page</title>
     <link href="styles/common-style.css" rel="stylesheet" />
-    <link href="styles/flex-task-style.css" rel="stylesheet" />
     <link href="styles/logo.css" rel="stylesheet" />
+    <link href="styles/pic.css" rel="stylesheet" />
     <link href="https://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet" />
 </head>
 <body>
@@ -26,10 +26,10 @@
             <a href="index.html">Home</a>
         </li>
         <li>
-            <a href="css-picture-task.html">Css picture task</a>
+            <a href="css-picture-task.html" class="active">Css picture task</a>
         </li>
         <li>
-            <a href="flex-task.html" class="active">Flex task</a>
+            <a href="flex-task.html">Flex task</a>
         </li>
         <li>
             <a href="dom-task.html">DOM task</a>
@@ -37,9 +37,30 @@
     </ul>
 </nav>
 <main>
-    <div id="vertical-flex-container">
-        <div id="horizontal-flex-container">
-            <img id="boy-img" src="images/boy_stoit.png" />
+    <div class="blue-bird">
+        <div class="bird-hair-left"></div>
+        <div class="bird-hair-center"></div>
+        <div class="bird-hair-right"></div>
+        <div class="bird-wing-left"></div>
+        <div class="bird-wing-right"></div>
+        <div class="bird-body">
+            <div class="bird-eye-left">
+                <div class="pupil"></div>
+            </div>
+            <div class="bird-eye-right">
+                <div class="pupil"></div>
+            </div>
+            <div class="bird-nose"></div>
+        </div>
+        <div class="bird-leg-left">
+            <div class="bird-leg-one"></div>
+            <div class="bird-leg-two"></div>
+            <div class="bird-leg-three"></div>
+        </div>
+        <div class="bird-leg-right">
+            <div class="bird-leg-one"></div>
+            <div class="bird-leg-two"></div>
+            <div class="bird-leg-three"></div>
         </div>
     </div>
 </main>
@@ -50,6 +71,5 @@
     </p>
 </footer>
 <script src="scripts/common.js"></script>
-<script src="scripts/flex-task.js"></script>
 </body>
 </html>

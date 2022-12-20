@@ -1,0 +1,12 @@
+.container {
+    text-align: center;
+}
+.container ul {
+    display: inline-block;
+    margin: 10px 0;
+    padding: 2px;
+}
+.container li {
+    display: inline-block;
+    margin: 40px;
+}

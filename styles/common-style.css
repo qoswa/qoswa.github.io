@@ -12,6 +12,15 @@ header {
   column-gap: 50px;
   background-color: DarkSalmon;
   padding: 30px;
+  background-image: url("../images/cat_background.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+}
+
+header h1 {
+    color: white;
 }
 
 nav ul {
